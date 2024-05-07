@@ -75,32 +75,35 @@ export const Tarif = ({ tarifRef }) => {
       ref={tarifRef}
       className="flex flex-col  items-center bg-[rgb(16,16,16)]  "
     >
-      <div className="melg:w-[70rem] w-[50rem] h-[80vh] pll mt-8 pll ">
+      <div className="cd:w-[70rem] w-[20rem] h-[80vh]  mt-8 pll ">
         <p
           data-aos={isMobile ? "fade-right" : "fade-left"}
-          className="cd:text-[3rem] text-[1.5rem] cd:ml-0 ml-[4rem] centeerr  font-extrabold text-white mb-8 tariff"
+          className="cd:text-[3rem] text-[1.5rem] cd:ml-0 ml-[4rem] centeerr  font-extrabold text-white mb-8 cd:text-start text-center"
         >
           ТАРИФЫ
         </p>
-        <div className="flex  gap-20  border-t-2 phh  border-[white] cd:px-0 px-[3rem]">
+        <div className="flex  gap-20  border-t-2 cd:flex-nowrap flex-wrap  border-[white] cd:px-0 px-[3rem]">
           <div className="mt-8 pl-4 w-[40rem]">
             <p
               data-aos="fade-right"
-              className="text-[1.4rem] font-bold text-[purple] tariff"
+              className="text-[1.4rem] font-bold text-[purple] cd:text-start text-center"
             >
               БАЗОВЫЙ (без ограничений по местам)
             </p>
             <p
               data-aos="fade-right"
-              className="text-[1.2rem] text-[white] tariff"
+              className="text-[1.2rem] text-[white] cd:text-start text-center"
             >
               <span className="line-through">25 000</span> 19 500 kgs
             </p>
-            <p data-aos="fade-right" className="text-[yellow] tariff">
+            <p
+              data-aos="fade-right"
+              className="text-[yellow] cd:text-start text-center"
+            >
               есть рассрочка
             </p>
           </div>
-          <div className="mt-8 text-[white] text-[1.2rem] online">
+          <div className="mt-8 text-[white] cd:text-[1.2rem] text-[0.8rem] ">
             <p data-aos="fade-left ">
               - Онлайн-уроки по всем темам связанными с WILDBERRIES
             </p>
@@ -122,7 +125,7 @@ export const Tarif = ({ tarifRef }) => {
             <div
               onClick={openCloseHandler1}
               data-aos="fade-right"
-              className="bg-[#d3d369] w-[15rem]  ml-20 h-[7vh] flex justify-center items-center mt-12 cursor-pointer bron"
+              className="bg-[#d3d369] w-[15rem]  cd:ml-20 ml-0 h-[7vh] flex justify-center items-center mt-12 cursor-pointer "
             >
               <p className="font-extrabold text-[black]">Заполнить анкету</p>
             </div>
@@ -133,26 +136,29 @@ export const Tarif = ({ tarifRef }) => {
           {open4 && <Modal4 open4={open4} setOpen4={setOpen4} />}
         </div>
       </div>
-      <div className="melg:w-[70rem] w-[50rem] h-[80vh] pll mt-8 ">
-        <div className="flex gap-20  border-t-2 phh cd:px-0 px-[3rem] border-[white]">
+      <div className="cd:w-[70rem] w-[20rem] h-[80vh] pll mt-8 ">
+        <div className="flex gap-20  border-t-2 cd:flex-nowrap flex-wrap cd:px-0 px-[3rem] border-[white]">
           <div className="mt-8 pl-4 w-[40rem]">
             <p
               data-aos="fade-right"
-              className="text-[1.4rem] font-bold text-[purple] tariff"
+              className="text-[1.4rem] font-bold text-[purple] cd:text-start text-center"
             >
               БАЗОВЫЙ pro <span className="text-[yellow]">(МЕСТ НЕТ)</span>
             </p>
             <p
               data-aos="fade-right"
-              className="text-[1.2rem] tariff text-[white]"
+              className="text-[1.2rem] cd:text-start text-center text-[white]"
             >
               <span className="line-through">45 000</span> 34 500 kgs
             </p>
-            <p data-aos="fade-right" className="text-[yellow] tariff">
+            <p
+              data-aos="fade-right"
+              className="text-[yellow] cd:text-start text-center"
+            >
               есть рассрочка
             </p>
           </div>
-          <div className="mt-8 text-[white] text-[1.2rem] online">
+          <div className="mt-8 text-[white] cd:text-[1.2rem] text-[0.8rem] ">
             <p data-aos={isMobile ? "fade-right" : "fade-left"}>
               - Онлайн-уроки по всем темам связанными с WILDBERRIES
             </p>
@@ -189,7 +195,7 @@ export const Tarif = ({ tarifRef }) => {
             <div
               onClick={openCloseHandler2}
               data-aos="fade-right"
-              className="bg-[#d3d369] bron cursor-pointer text-[1rem] w-[15rem]  ml-20 h-[7vh] flex justify-center items-center mt-12"
+              className="bg-[#d3d369]  cursor-pointer text-[1rem] w-[15rem]  cd:ml-20 ml-0 h-[7vh] flex justify-center items-center mt-12"
             >
               <p className=" font-extrabold text-[black]">
                 Забронировать место
@@ -198,33 +204,39 @@ export const Tarif = ({ tarifRef }) => {
           </div>
         </div>
       </div>
-      <div className="melg:w-[70rem] w-[50rem] pll melg:h-[70vh] h-[85vh] mt-8 expert">
-        <div className="flex gap-20  border-t-2 phh cd:px-0 px-[3rem] border-[white]">
+      <div className="cd:w-[70rem] w-[20rem] pll cd:h-[70vh] h-[100vh] mt-8 ">
+        <div className="flex gap-20  border-t-2 cd:flex-nowrap flex-wrap cd:px-0 px-[3rem] border-[white]">
           <div className="mt-8 pl-4 w-[40rem]">
             <p
               data-aos="fade-right"
-              className="text-[1.4rem] font-bold text-[purple] tariff"
+              className="text-[1.4rem] font-bold text-[purple] cd:text-start text-center"
             >
-              ЭКСПЕРТ <span className="text-[yellow] tariff">(МЕСТ НЕТ)</span>
+              ЭКСПЕРТ{" "}
+              <span className="text-[yellow] cd:text-start text-center">
+                (МЕСТ НЕТ)
+              </span>
             </p>
             <p
               data-aos="fade-right"
-              className="text-[purple] text-[1.4rem] tariff"
+              className="text-[purple] text-[1.4rem] cd:text-start text-center"
             >
               обучение и вход в клуб резидентов CARTEL
             </p>
             <p
               data-aos="fade-right"
-              className="text-[1.2rem] text-[white] tariff"
+              className="text-[1.2rem] text-[white] cd:text-start text-center"
             >
               <span className="line-through">120 000</span> 50 000 kgs + 12 000
               kgs - ежемесячный доступ в клуб (начиная со второго месяца)
             </p>
-            <p data-aos="fade-right" className="text-[yellow] tariff">
+            <p
+              data-aos="fade-right"
+              className="text-[yellow] cd:text-start text-center"
+            >
               есть рассрочка
             </p>
           </div>
-          <div className="mt-8 text-[white] text-[1.2rem] online">
+          <div className="mt-8 text-[white] cd:text-[1.2rem] text-[0.8rem] ">
             <p data-aos={isMobile ? "fade-right" : "fade-left"}>
               - Онлайн-уроки по всем темам связанными с WILDBERRIES
             </p>
@@ -258,7 +270,7 @@ export const Tarif = ({ tarifRef }) => {
             <div
               onClick={openCloseHandler3}
               data-aos="fade-right"
-              className="bg-[#d3d369] bron cursor-pointer text-[1rem] w-[15rem]  ml-20 h-[7vh] flex justify-center items-center mt-12"
+              className="bg-[#d3d369]  cursor-pointer text-[1rem] w-[15rem]  cd:ml-20 ml-0 h-[7vh] flex justify-center items-center mt-12"
             >
               <p className=" font-extrabold text-[black]">
                 Забронировать место
@@ -267,7 +279,7 @@ export const Tarif = ({ tarifRef }) => {
           </div>
         </div>
       </div>
-      <div className="melg:w-[70rem] w-[50rem] h-[80vh] pll mt-8 ">
+      <div className="cd:w-[70rem] w-[20rem] h-[80vh] pll mt-8 ">
         <div className="flex gap-20 pl-4 border-t-2 border-[white] ">
           <div className="text-[1.1rem] ">
             <p
@@ -307,7 +319,7 @@ export const Tarif = ({ tarifRef }) => {
               <div
                 onClick={openCloseHandler4}
                 data-aos="fade-right"
-                className="bg-[#d3d369] bron cursor-pointer w-[15rem] cd:ml-20 ml-0 h-[7vh] flex justify-center items-center mt-12"
+                className="bg-[#d3d369]  cursor-pointer w-[15rem] cd:ml-20 ml-0 h-[7vh] flex justify-center items-center mt-12"
               >
                 <p className=" font-extrabold text-[black]">Заполнить анкету</p>
               </div>
@@ -361,11 +373,11 @@ export const Tarif = ({ tarifRef }) => {
       </div>
       <p
         data-aos="fade-down"
-        className="text-white gd:text-[3rem] text-[2rem] font-bold textt"
+        className="text-white cd:text-[3rem] text-[1rem] font-bold "
       >
         Если у вас остались вопросы пишите в соцсети
       </p>
-      <div className="flex phh justify-center gap-4 mt-12">
+      <div className="flex cd:flex-nowrap flex-wrap justify-center gap-4 mt-12">
         <a
           data-aos="zoom-in"
           href="https://www.instagram.com/aktilek.wb/"
@@ -389,7 +401,7 @@ export const Tarif = ({ tarifRef }) => {
           <Vk />
         </a>
       </div>
-      <div className="flex phh justify-center gap-4 mt-4">
+      <div className="flex cd:flex-nowrap flex-wrap justify-center gap-4 mt-4">
         <a
           data-aos="zoom-in"
           href="https://dzen.ru/leoshev44enko?utm_source=Inst&utm_medium=praktikum&utm_campaign=bio_Leo&utm_content=2304&fbclid=PAZXh0bgNhZW0CMTEAAaZ4vvZaJx2vUtlbjJH-fv2Wam1rmZ5x3YKdD0yX-MzNb-mU7d9DcUynF1c_aem_ARDOApKPQvw67Nk-62oBOaE8OX2ZjU78F9aKD0AeG4XQivlnfWO8Vr5c7jZMZk-afSZ3itLDoQaNFjCujgcaCmQ-"
@@ -405,7 +417,7 @@ export const Tarif = ({ tarifRef }) => {
           <Youtube />
         </a>
       </div>
-      <div className="flex phh justify-center gap-[10rem] mb-20 mt-20">
+      <div className="flex cd:flex-nowrap flex-wrap justify-center gap-[10rem] mb-20 mt-20">
         <div className="text-white">
           <p data-aos={isMobile ? "fade-right" : "fade-left"}>
             ИП Кадыркулов Адилет

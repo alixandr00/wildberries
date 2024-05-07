@@ -48,7 +48,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4 "
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4 "
         >
           В этом уроке обсуждается общая структура курса, цели и ожидания.
           Учащиеся знакомятся с основными понятиями и инструментами, которые
@@ -64,7 +64,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           Здесь рассматриваются юридические вопросы, связанные с запуском и
           управлением онлайн-бизнесом, включая регистрацию бизнеса, авторские
@@ -80,7 +80,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           Урок посвящен особенностям работы с интерфейсом веб-браузера, который
           используется для управления онлайн-магазином, включая управление
@@ -96,7 +96,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           Обсуждаются стратегии выбора продуктов для продажи онлайн, анализ
           спроса, рентабельности и уникальности товара на рынке.
@@ -111,7 +111,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           Рассматриваются методы поиска и выбора надежных поставщиков, включая
           анализ предложений, условий сотрудничества и логистики.
@@ -126,7 +126,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           Учащиеся изучают процесс подготовки товара к продаже, включая листинг
           товара, оформление товарных страниц и оптимизацию для поисковых
@@ -142,7 +142,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           В этом уроке рассматриваются методы и стратегии продвижения товаров в
           Интернете, включая внутреннюю и внешнюю рекламу
@@ -157,7 +157,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           Здесь уделяется внимание методам анализа данных о продажах,
           посещаемости карточек, влияния на ключевые показатели и эффективности
@@ -173,7 +173,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           Урок посвящен основам финансовой отчетности и бухгалтерскому учету в
           контексте управления онлайн-бизнесом.
@@ -188,7 +188,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           Обсуждаются способы заработка на собственных знаниях через
           предоставление разовых и постоянных услуг
@@ -203,7 +203,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           Изучаются стратегии роста и расширения бизнеса, включая добавление
           новых товаров, расширение на новые рынки и автоматизацию
@@ -219,7 +219,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           Рассматривается повседневный цикл работы онлайн-бизнеса
         </p>
@@ -233,7 +233,7 @@ export const Main3 = () => {
         </p>
         <p
           data-aos="fade-right"
-          className="melg:w-[70rem] w-[50rem] mll cd:text-[1rem] text-[0.7rem] text-center mt-4"
+          className="cd:w-[70rem] w-[17rem]  cd:text-[1rem] text-[0.7rem] text-center mt-4"
         >
           Завершающий урок курса, где мы зафиксируем ваши знаний и прекрасно
           проведем последний день в резиденции клуба CARTEL, где каждый получит

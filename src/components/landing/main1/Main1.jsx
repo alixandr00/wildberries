@@ -30,12 +30,12 @@ export const Main1 = ({ tarifRef }) => {
       >
         КОЛЛЕДЖ
       </p>
-      <div data-aos="fade-right" className="mt-8">
-        <p className="text-[white] md:text-[1.3rem] text-[1rem] cd:w-full w-[13rem] study">
-          Обучение по <span className="text-[#e94560]">WILDBERRIES</span> от
+      <div data-aos="fade-right" className="mt-8 cd:w-full w-[13rem]">
+        <p className="text-[white] md:text-[1.3rem] text-[1rem] cd:ml-0  cd:text-center text-center  ">
+          Обучение по <span className="text-[#e94560] ">WILDBERRIES</span> от
           бизнес клуба CARTEL
         </p>
-        <p className="text-[white] md:text-[1.3rem] text-[1rem] study">
+        <p className="text-[white] md:text-[1.3rem] text-[1rem]  cd:text-center text-center">
           Подходит для новичков, менеджеров, селлеров и производителей
         </p>
       </div>
@@ -55,20 +55,20 @@ export const Main1 = ({ tarifRef }) => {
       </div>
       <img
         data-aos="fade-down"
-        className="w-[16rem] mt-8 cartel"
+        className="cd:w-[16rem] w-[10rem] mt-8 "
         src={CARTEL}
         alt="cartel"
       />
-      <div className="melg:w-[60rem] w-[45rem] melg:mr-[15rem] mr-0 h-[15vh] year">
+      <div className="melg:w-[60rem] flex flex-col cd:items-start items-center w-[45rem] melg:mr-[15rem] mr-0 h-[15vh] ">
         <p
           data-aos="fade-right"
-          className="text-[white] text-[1.3rem] melg:mt-0 mt-4 font-extrabold why"
+          className="text-[white] text-[1.3rem] melg:mt-0 mt-4 font-extrabold cd:text-start text-center "
         >
           Почему сейчас?
         </p>
         <p
           data-aos="fade-right"
-          className="text-[white] melg:text-[3rem] text-[2rem] font-extrabold yearr"
+          className="text-[white] cd:text-[3rem] text-[1.2rem]  cd:w-[55rem] w-[15rem] font-extrabold cd:text-start text-center"
         >
           2024 год это лучшее время для того, чтобы изучить WILDBERRIES:
         </p>
@@ -145,13 +145,13 @@ export const Main1 = ({ tarifRef }) => {
         <div>
           <p
             data-aos="fade-right"
-            className="text-[#e94560] cd:text-[3rem] text-[2rem] font-extrabold format"
+            className="text-[#e94560] cd:text-[3rem] text-[2rem] font-extrabold "
           >
             Формат обучения
           </p>
           <p
             data-aos="fade-right"
-            className="text-[#0f3460] gd:w-[25rem] w-[20rem] text-[1.5rem] font-bold practic"
+            className="text-[#0f3460] gd:w-[25rem] w-[20rem] text-[1.5rem] font-bold "
           >
             практика на реальных задачах,{" "}
             <span className="text-white">внутри сообщества</span> уже
@@ -161,20 +161,29 @@ export const Main1 = ({ tarifRef }) => {
         <div>
           <p
             data-aos="fade-right"
-            className="text-[#0f3460] xl:w-[43rem] w-[35rem] text-[1.3rem] our"
+            className="text-[#0f3460] xl:w-[43rem] cd:w-[35rem] w-[20rem] cd:ml-0 ml-8 text-[1.3rem] "
           >
             Наше обучение{" "}
             <span className="text-[#e94560]">отличается от всех</span>{" "}
             предложенных на рынке, потому что происходит НА ПРАКТИКЕ уже
             действующих резидентов клуба CARTEL
           </p>
-          <p data-aos="fade-right" className="text-white text-[1.2rem] lesson">
+          <p
+            data-aos="fade-right"
+            className="text-white cd:text-[1.2rem] text-[1rem] cd:mt-0 mt-4 cd:pl-0 pl-8"
+          >
             - онлайн уроки
           </p>
-          <p data-aos="fade-right" className="text-white text-[1.2rem] lesson">
+          <p
+            data-aos="fade-right"
+            className="text-white cd:text-[1.2rem] text-[1rem]  cd:pl-0 pl-8"
+          >
             - живые встречи внутри клуба
           </p>
-          <p data-aos="fade-right" className="text-white text-[1.2rem] lesson">
+          <p
+            data-aos="fade-right"
+            className="text-white cd:text-[1.2rem] text-[1rem]  cd:pl-0 pl-8"
+          >
             - работа с реальными кейсами и задачами
           </p>
         </div>
