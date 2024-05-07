@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wildberries/static/css/main.9d647f1e.css",
-    "main.js": "/wildberries/static/js/main.8c0c2f14.js",
+    "main.js": "/wildberries/static/js/main.b4268056.js",
     "static/media/Снимок экрана 2024-05-06 203301.png": "/wildberries/static/media/Снимок экрана 2024-05-06 203301.9b9e5fc39597690e23a7.png",
     "static/media/Снимок экрана 2024-05-06 203559.png": "/wildberries/static/media/Снимок экрана 2024-05-06 203559.ce13ef32742da5317ba0.png",
     "static/media/1920.webp": "/wildberries/static/media/1920.31c27ecc7a962e912c7c.webp",
@@ -18,10 +18,10 @@
     "static/media/xicon.svg": "/wildberries/static/media/xicon.f961e9c675f353076acad30640b53c51.svg",
     "static/media/plus.svg": "/wildberries/static/media/plus.854c9902bd625ede6938fbed417935c7.svg",
     "main.9d647f1e.css.map": "/wildberries/static/css/main.9d647f1e.css.map",
-    "main.8c0c2f14.js.map": "/wildberries/static/js/main.8c0c2f14.js.map"
+    "main.b4268056.js.map": "/wildberries/static/js/main.b4268056.js.map"
   },
   "entrypoints": [
     "static/css/main.9d647f1e.css",
-    "static/js/main.8c0c2f14.js"
+    "static/js/main.b4268056.js"
   ]
 }
