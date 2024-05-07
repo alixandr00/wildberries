@@ -272,7 +272,7 @@ export const Tarif = ({ tarifRef }) => {
               data-aos="fade-right"
               className="bg-[#d3d369]  cursor-pointer text-[1rem] w-[15rem]  cd:ml-20 ml-0 h-[7vh] flex justify-center items-center mt-12"
             >
-              <p className=" font-extrabold text-[black]">
+              <p className=" font-extrabold text-[black] a">
                 Забронировать место
               </p>
             </div>
