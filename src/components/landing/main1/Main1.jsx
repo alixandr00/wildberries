@@ -33,7 +33,7 @@ export const Main1 = ({ tarifRef }) => {
       <div data-aos="fade-right" className="mt-8 cd:w-full w-[13rem]">
         <p className="text-[white] md:text-[1.3rem] text-[1rem] cd:ml-0  cd:text-center text-center  ">
           Обучение по <span className="text-[#e94560] ">WILDBERRIES</span> от
-          бизнес клуба CARTEL aaaaaaaaaaaa
+          бизнес клуба CARTEL aaaaaaaaaaaaa
         </p>
         <p className="text-[white] md:text-[1.3rem] text-[1rem]  cd:text-center text-center">
           Подходит для новичков, менеджеров, селлеров и производителей
