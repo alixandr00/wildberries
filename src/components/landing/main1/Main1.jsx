@@ -31,7 +31,7 @@ export const Main1 = ({ tarifRef }) => {
         КОЛЛЕДЖ
       </p>
       <div data-aos="fade-right" className="mt-8">
-        <p className="text-[white] md:text-[1.3rem] text-[1rem] study">
+        <p className="text-[white] md:text-[1.3rem] text-[1rem] cd:w-full w-[13rem] study">
           Обучение по <span className="text-[#e94560]">WILDBERRIES</span> от
           бизнес клуба CARTEL
         </p>
