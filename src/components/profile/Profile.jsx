@@ -34,16 +34,16 @@ export const Profile = () => {
               больших денег и проживания счастливой жизни.
             </p>
             <div className="social-icons">
-              <a href="#" className="icon icon-telegram">
+              <a href="" className="icon icon-telegram">
                 <FaTelegram size="30px" />
               </a>
-              <a href="#" className="icon icon-youtube">
+              <a href="" className="icon icon-youtube">
                 <FaYoutube size="30px" />
               </a>
-              <a href="#" className="icon icon-facebook">
+              <a href="" className="icon icon-facebook">
                 <FaFacebookF size="30px" />
               </a>
-              <a href="#" className="icon icon-instagram">
+              <a href="" className="icon icon-instagram">
                 <FaInstagram size="30px" />
               </a>
             </div>
